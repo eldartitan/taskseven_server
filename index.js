@@ -13,7 +13,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
         // origin: "https://task-seven-client.up.railway.app/",
-        origin: "https://tourmaline-valkyrie-1e7458.netlify.app/",
+        origin: "https://tasksevencra.up.railway.app/",
     },
 });
 
