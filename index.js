@@ -14,6 +14,7 @@ const io = new Server(server, {
     cors: {
         // origin: "https://task-seven-client.up.railway.app/",
         origin: "https://tasksevencra.up.railway.app/",
+        methods: ["GET", "POST"]
     },
 });
 
